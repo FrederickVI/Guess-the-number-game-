@@ -16,6 +16,7 @@ while True:                                      #Option to play the game
     else:
         print("Answer Must Be 'Yes' or 'No'")
 
+# Ask the player to guess 6 times.
 for guessesTaken in range(1,7):
     print("Take a guess")
     guess = int(input())
